@@ -1,7 +1,6 @@
 branch-defaults:
   master:
-    environment: roda-test-dev
-    group_suffix: null
+    environment: test-env
 global:
   application_name: roda-test
   default_ec2_keyname: aws-eb

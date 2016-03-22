@@ -1,0 +1,11 @@
+branch-defaults:
+  master:
+    environment: roda-test-dev
+    group_suffix: null
+global:
+  application_name: roda-test
+  default_ec2_keyname: aws-eb
+  default_platform: Ruby 2.2 (Puma)
+  default_region: us-west-2
+  profile: eb-cli
+  sc: git
